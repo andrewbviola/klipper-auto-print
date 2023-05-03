@@ -2,7 +2,7 @@ URL = "http://localhost/" # Default: http://localhost, adjust if connection issu
 
 grabGcode = "{}server/files/list?root=gcodes".format(URL)
 
-# Set your schedule in 24 hour format ie 8:42 PM is 20:42 - Edit these!
+# Set your schedule in 24 hour format ie 8:42 PM is "20:42" - Edit these!
 Monday = 
 Tuesday = 
 Wednesday = 
