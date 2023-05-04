@@ -1,15 +1,18 @@
-URL = "http://localhost/" # Default: http://localhost, adjust if connection issues occur
+URL = "http://localhost/" # Default: http://localhost, set to the address of your drawing machine
 
 grabGcode = "{}server/files/list?root=gcodes".format(URL)
 
-# Set your schedule in 24 hour format ie 8:42 PM is "20:42" - Edit these!
-Monday = "12:00"
-Tuesday = "12:00"
-Wednesday = "12:00"
-Thursday = "12:00"
-Friday = "12:00"
-Saturday = "12:00"
-Sunday = "12:00"
+# Set your schedule in 24 hour format ie 8:42 PM is "20:42"
+# If it is set to "0", it will not run for that day
+# Default is set to "1" to remind you to change them
+# Edit Below 
+Monday = "1"
+Tuesday = "1"
+Wednesday = "1"
+Thursday = "1"
+Friday = "1"
+Saturday = "1"
+Sunday = "1"
 
 # Only one of these can be selected true. If multiple were to be selected,
 # iteratedListPrint will take precedence, then memoryPrint and then trueRandom
