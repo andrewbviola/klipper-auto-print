@@ -28,7 +28,7 @@ def whatTime(current_day):
 
         case "Sunday":
             return variables.Sunday
-
+        
     return 0
 
 
